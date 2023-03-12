@@ -1,7 +1,7 @@
 
 const mongoose = require("mongoose")
 
-require("../server/conn")
+require("../conn")
 const Mycollection = require("../server/veSchema")
 // app.get('/', async(req, res) => {
 // data = await Mycollection.find()
